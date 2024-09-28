@@ -72,6 +72,10 @@ main {
   gap: 15px;
 }
 
+.buttons button {
+  cursor: pointer;
+}
+
 .socials {
   /* justify-content: space-evenly; */
   margin-top: -5px;
@@ -80,6 +84,7 @@ main {
 .socials img {
   width: 20px;
   margin: 0 6px;
+  cursor: pointer;
 }
 
 .buttons button {
@@ -103,6 +108,7 @@ main {
 }
 
 .stats img {
+  cursor: pointer;
   height: 10px;
   margin: 5px;
 }
