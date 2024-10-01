@@ -48,6 +48,7 @@ main {
 }
 
 .job-title {
+  height: 20px;
   font-size: x-small;
 }
 
@@ -68,18 +69,23 @@ main {
   justify-content: center;
 }
 
-.buttons {
-  gap: 15px;
-}
-
 .buttons button {
   cursor: pointer;
 }
 
-.socials {
-  /* justify-content: space-evenly; */
-  margin-top: -5px;
+.follow {
+  margin-right: 10px;
 }
+
+.message {
+  margin-left: 10px;
+}
+
+/* .socials {
+  justify-content: space-evenly;
+
+  height: auto;
+} */
 
 .socials img {
   width: 20px;
