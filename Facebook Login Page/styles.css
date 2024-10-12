@@ -47,7 +47,9 @@ input[type="password"] {
   box-sizing: border-box;
   font-size: 16px;
   &:focus {
+    box-shadow: 0 0 0 2px #e7f3ff;
     outline: none;
+    border: 0.8px solid #1877f2;
   }
 }
 
@@ -55,6 +57,11 @@ input[type="text"]::placeholder,
 input[type="password"]::placeholder {
   color: #8f8f8ffe;
   font-weight: 500;
+}
+
+input[type="text"]::placeholder:focus,
+input[type="password"]::placeholder:focus {
+  color: #ededed;
 }
 
 button {
